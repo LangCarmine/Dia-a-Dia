@@ -55,35 +55,28 @@
     <br>
     <script language="JavaScript" type="text/javascript">
 
-mensagem = prompt("Por favor, ingresa tu nombre",'');
+        mensagem = prompt("Por favor, ingresa tu nombre",'');
 
-if (mensagem==null) {
+        if (mensagem==null) {
 
-document.write("¡Hola, visitante!")
+            document.write("¡Hola, visitante!")
+        }else{
 
-}else{
+            if (mensagem=='') {
 
-if (mensagem=='') {
+                document.write("<b><font face=arial size=5 color=#000000>¡Hola, visitante!<\/font><\/b>")
 
-document.write("<b><font face=arial size=5 color=#000000>¡Hola, visitante!<\/font><\/b>")
+            }else{
 
-}else{
+                document.write("<b><font face=arial size=5 color=#000000>¡Hola "+mensagem+"! Bienvenido a DÍA A DÍA<\/font><\/b>");
+            }
+        }
+    </script>
 
-document.write("<b><font face=arial size=5 color=#000000>¡Hola "+mensagem+"! Bienvenido a DÍA A DÍA<\/font><\/b>");
-
-}
-
-}
-
-
-</script>
-
-<center> <span class="Apple-style-span" style="font-family: 'Trebuchet MS', helvetica;"> </span></center>
+    <center> <span class="Apple-style-span" style="font-family: 'Trebuchet MS', helvetica;"> </span></center>
 
 
-
-<center><span class="Apple-style-span" style="font-family: 'Trebuchet MS', helvetica;"> </span></center>
-
+    <center><span class="Apple-style-span" style="font-family: 'Trebuchet MS', helvetica;"> </span></center>
 
 </nav>
 <!--Fin Bienvenida-->
